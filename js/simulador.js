@@ -43,16 +43,6 @@ products.push(reloj)
 
 
 while (seguirComprando === true) {
-    // if (selectedItem === 1) {
-    //     totalCompra = totalCompra + 70000
-    // } else if (selectedItem === 2) {
-    //     totalCompra = totalCompra + 95000
-    // } else if (selectedItem === 3) {
-    //     totalCompra = totalCompra + 65000
-    // } else if (selectedItem === 4) {
-    //     totalCompra = totalCompra + 40000
-    // } else if (selectedItem === 5) {
-    //     totalCompra = totalCompra + 250000
     const requestedProduct = products.find(prod=>prod.id===selectedItem)
     if(requestedProduct){
         totalCompra = totalCompra + requestedProduct.precio
